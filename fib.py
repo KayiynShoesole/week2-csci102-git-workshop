@@ -10,6 +10,9 @@ def fib():
         first 10 Fibonacci numbers, note Fn = Fn-1 + Fn-2
         '''
 
+        fib_n = fibs[i] + fibs[i-1]
+        fibs.append(fib_n)
+
     return fibs
 
 def main():
